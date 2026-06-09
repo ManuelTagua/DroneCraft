@@ -1,0 +1,42 @@
+# Gradle
+
+.gradle/
+build/
+
+# IntelliJ IDEA
+
+.idea/
+*.iml
+out/
+
+# Minecraft Forge run folder
+
+run/
+
+# Logs
+
+logs/
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Java
+
+*.class
+
+# Temporary files
+
+*.tmp
+*.cache
+
+# Crash reports
+
+crash-reports/
+
+# Generated jars
+
+*.jar
+!gradle-wrapper.jar

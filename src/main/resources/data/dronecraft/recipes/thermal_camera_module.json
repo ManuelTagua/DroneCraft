@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GSG",
+    "RLR",
+    "GSG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "S": {
+      "item": "minecraft:spyglass"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "L": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "dronecraft:thermal_camera_module",
+    "count": 1
+  }
+}

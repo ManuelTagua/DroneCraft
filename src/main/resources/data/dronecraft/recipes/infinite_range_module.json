@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DED",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "dronecraft:elite_range_module"
+    }
+  },
+  "result": {
+    "item": "dronecraft:infinite_range_module",
+    "count": 1
+  }
+}

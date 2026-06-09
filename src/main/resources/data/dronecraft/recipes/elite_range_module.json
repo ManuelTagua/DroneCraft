@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GAG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "A": {
+      "item": "dronecraft:advanced_range_module"
+    }
+  },
+  "result": {
+    "item": "dronecraft:elite_range_module",
+    "count": 1
+  }
+}
