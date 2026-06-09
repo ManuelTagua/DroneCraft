@@ -10,12 +10,12 @@ The drone can be remotely piloted using a controller and enhanced with multiple 
 
 ### 🚁 Remote Drone Control
 
-* Place a drone in the world.
-* Connect using the Drone Controller.
-* Switch to the drone camera in real time.
-* Fly freely while respecting collisions.
-* Smooth drone movement with custom controls.
-* Automatic landing and return systems.
+* Place a drone in the world
+* Connect using the Drone Controller
+* Switch to the drone camera in real time
+* Fly freely while respecting collisions
+* Smooth drone movement with custom controls
+* Automatic landing and return systems
 
 ### 🔧 Upgrade System
 
@@ -28,15 +28,11 @@ The drone supports multiple installable modules.
 * Elite Range Module
 * Infinite Range Module
 
-Increase the maximum distance at which the drone can be controlled.
-
 #### ⚡ Speed Modules
 
 * Basic Speed Module (x1.5)
 * Advanced Speed Module (x2)
 * Elite Speed Module (x3)
-
-Improve drone movement speed while maintaining smooth controls.
 
 #### 📷 Camera Modules
 
@@ -44,14 +40,10 @@ Improve drone movement speed while maintaining smooth controls.
 * Night Vision Module
 * Thermal Camera Module
 
-Enhance the drone's camera capabilities for exploration and surveillance.
-
 #### 🛠 Utility Modules
 
 * Return Module
 * Explosive Module
-
-Recover the drone instantly or trigger a self-destruct sequence.
 
 ---
 
@@ -100,14 +92,14 @@ Modules are preserved when:
 
 ## Controls
 
-| Key   | Action                |
-| ----- | --------------------- |
-| **V** | Exit Drone Mode       |
-| **Z** | Zoom                  |
-| **N** | Toggle Night Vision   |
-| **C** | Toggle Thermal Camera |
-| **R** | Return Drone          |
-| **B** | Self Destruct         |
+| Key | Action                |
+| --- | --------------------- |
+| V   | Exit Drone Mode       |
+| Z   | Zoom                  |
+| N   | Toggle Night Vision   |
+| C   | Toggle Thermal Camera |
+| R   | Return Drone          |
+| B   | Self Destruct         |
 
 ---
 
@@ -139,15 +131,15 @@ Modules are preserved when:
 
 ### Steps
 
-1. Install Minecraft Forge 1.20.1.
-2. Download the latest DroneCraft release.
+1. Install Minecraft Forge 1.20.1
+2. Download the latest DroneCraft release
 3. Place the `.jar` file inside:
 
 ```text
 .minecraft/mods
 ```
 
-4. Launch Minecraft using the Forge profile.
+4. Launch Minecraft using the Forge profile
 
 ---
 
@@ -195,6 +187,6 @@ The project was developed as a personal Minecraft Forge modding project focused 
 
 ## Author
 
-Developed by **Manuel Tagua**.
+Developed by **Manuel Tagua**
 
 GitHub: https://github.com/ManuelTagua
