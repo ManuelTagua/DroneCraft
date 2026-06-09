@@ -1,46 +1,118 @@
+# DroneCraft
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+DroneCraft is a Minecraft Forge mod for **Minecraft 1.20.1** that adds a fully controllable drone with an advanced upgrade system.
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+The drone can be remotely piloted using a controller and enhanced with multiple modules such as zoom, night vision, thermal vision, speed upgrades, range upgrades, return functionality and self-destruction capabilities.
 
-Setup Process:
-==============================
+## Features
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+### Remote Drone Control
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+* Place a drone in the world.
+* Connect using the Drone Controller.
+* Switch to the drone camera in real time.
+* Fly freely while respecting collisions.
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+### Upgrade System
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
+The drone supports multiple installable modules:
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+#### Range Modules
 
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+* Basic Range Module
+* Advanced Range Module
+* Elite Range Module
+* Infinite Range Module
+
+#### Speed Modules
+
+* Basic Speed Module (x1.5)
+* Advanced Speed Module (x2)
+* Elite Speed Module (x3)
+
+#### Camera Modules
+
+* Zoom Module
+* Night Vision Module
+* Thermal Camera Module
+
+#### Utility Modules
+
+* Return Module
+* Explosive Module
+
+### Custom HUD
+
+While piloting the drone, players have access to:
+
+* Current range information
+* Active modules
+* Zoom controls
+* Thermal vision status
+* Night vision status
+* Return and self-destruction controls
+
+### Persistent Module System
+
+All installed modules are stored inside the drone and remain saved when:
+
+* Recovering the drone
+* Breaking the drone
+* Replacing the drone
+
+## Technologies Used
+
+* Java
+* Minecraft Forge 1.20.1
+* Gradle
+* NBT Data Storage
+* Custom GUI
+* Custom HUD
+* Entity Rendering
+* Client/Server Synchronization
+
+## Controls
+
+| Key | Action          |
+| --- | --------------- |
+| V   | Exit drone mode |
+| Z   | Zoom            |
+| N   | Night Vision    |
+| C   | Thermal Camera  |
+| R   | Return Drone    |
+| B   | Self Destruct   |
+
+## Installation
+
+1. Install Minecraft Forge 1.20.1.
+2. Download the latest DroneCraft release.
+3. Place the `.jar` file inside:
+
+```text
+.minecraft/mods
+```
+
+4. Launch Minecraft using the Forge profile.
+
+## Screenshots
+
+Add screenshots here:
+
+* Drone in the world
+* Module interface
+* Thermal camera
+* Night vision
+* Zoom mode
+* Drone flight
+
+## Future Plans
+
+* Cargo Drone
+* Entity Transport System
+* Block Placement and Breaking
+* Additional Drone Variants
+* Improved Visual Effects
+
+## Author
+
+Developed by Manuel Tagua as a personal Minecraft Forge modding project.
